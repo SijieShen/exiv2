@@ -5,6 +5,8 @@ project(exiv2
     LANGUAGES CXX C
 )
 
+set (CMAKE_INSTALL_PREFIX   ${CMAKE_BINARY_DIR}/install)
+
 include(cmake/mainSetup.cmake  REQUIRED)
 
 # options and their default values
